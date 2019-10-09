@@ -24,8 +24,8 @@ Version with code block allows to read file line by line without reading the who
 
 
 * How would you translate a hash to an array? Can you translate arrays to hashes?
-** hash -> array: `to_a` - `Converts hash to a nested array of [ key, value ] arrays.`
-** array -> hash: `to_h` - works with array of [key, value] pairs 
+  * hash -> array: `to_a` - `Converts hash to a nested array of [ key, value ] arrays.`
+  * array -> hash: `to_h` - works with array of [key, value] pairs 
 `to_h {block}` - `If a block is given, the results of the block on each element of the array will be used as pairs.`
 
 * Can you iterate through a hash?
@@ -38,8 +38,8 @@ Version with code block allows to read file line by line without reading the who
 
 * Print the contents of an array of sixteen numbers, four numbers at a time, using just each. Now, do the same with each_slice in Enumerable.
 
-** TODO print with `each`
-** 
+  * TODO print with `each`
+  * 
 ```
 a = *(1..16)
 a.each_slice(4) {|group| print group}
